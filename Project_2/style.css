@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+    border-top: 4px solid #0bc5c5;
+
+    margin-bottom: 50px;
+    
+    
+}
+
+header {
+    font-family: cursive;
+    text-align: center;
+    color: #0bc5c5;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.recipe{
+    width: 480px;
+    border-bottom:4px solid #0bc5c5 ;
+    border-left:4px solid #0bc5c5 ;
+    padding: 10px 0 0 15px;
+    border-bottom-left-radius: 40px ;
+    background-color: #fff;
+    box-shadow: -5px 5px 6px  #0bc5c5;
+}
+.img-side-content{
+    display: inline-block;
+    width: 450px;
+    height: 230px;
+}
+.img-side-content h2{
+    word-spacing: 10px;
+    color: #333;
+    margin-bottom: 10px;
+
+}
+.img-side-content p{
+    text-align: justify;
+    word-spacing: 9px;
+}
+
+.recipe img {
+    float: left;
+    margin-right: 15px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h3{
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.stars{
+    margin-left: 10px;
+}
+.reviews-body{
+    height: 450px;
+    margin: 30px;
+}
+.reviews-body h3{
+    text-align: center;
+}
+.review-content{
+    margin: 0 30px 0 30px;
+    line-height: 25px;
+}
+
+.recipe ul, .recipe ol {
+    margin: 10px 0 20px 0;
+    padding-left: 40px;
+}
+
+.recipe ul li, .recipe ol li {
+    margin-bottom: 5px;
+}
+.reviews-body{
+    width: 440px;
+    border: 3px solid #217575;
+    background-color: #9DD9D9;
+    border-radius: 30px;
+
+}

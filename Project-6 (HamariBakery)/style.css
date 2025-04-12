@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/****  Header Section   ****/
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.navbar {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.navbar img {
+    width: 250px;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+}
+
+.navbar .nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu li a:hover {
+    /* color: rgb(0, 17, 255); */
+    text-decoration: underline;
+}
+
+.navbar .btn {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    /* color: white; */
+    /* background-color: rgb(189, 8, 8); */
+}
+
+.navbar .btn:hover {
+    background-color: #5e1f12;
+    color: #fff;
+}
+
+
+/**************  Main Section  ************************/
+
+.main {
+    min-height: 100vh;
+    background-color: #ffeecd;
+}
+
+.main-content {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin: 0 auto;
+    padding-top: 190px;
+}
+
+.left-content h1 {
+    /* max-width: 70%; */
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.left-content h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.left-content p {
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.left-content .btn {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.left-content a {
+    color: black;
+    text-decoration: none;
+}
+
+.left-content a:hover {
+    color: #fff;
+}
+
+.left-content .btn:hover {
+    background-color: #5e1f12;
+    
+}
+
+/*****************     About Us    *********************/
+
+.about-us {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding: 120px 100px;
+}
+
+.about-us .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-us .about-content .about-image img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-us .about-details {
+    max-width: 50%;
+
+}
+
+.about-us .about-details .about-title {
+    text-align: center;
+    padding: 40px 0 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.about-us .about-details .about-title::after {
+    content: '';
+    display: block;
+    background: #5e1f12;
+    height: 5px;
+    width: 100px;
+    border-radius: 30px;
+    margin: 10px auto 0;
+}
+
+.about-details p {
+    font-size: 1.1rem;
+    line-height: 30px;
+    text-align: center;
+    /* margin: 50px 0 30px; */
+}
+
+
+
+/*****************     menu (Our Exclusive cakes)    *********************/
+
+
+.menu-section {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #5e1f12;
+    color: #fff;
+    padding: 50px 0 100px;
+}
+
+.menu-section .section-title {
+    text-align: center;
+    padding: 40px 0 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.menu-section .section-title::after {
+    content: '';
+    display: block;
+    background: #fff;
+    height: 5px;
+    width: 100px;
+    border-radius: 30px;
+    margin: 10px auto 0;
+}
+
+.menu-section .menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu-section .menu-list .menu-item {
+    width: 30%;
+    text-align: center;
+    height: 300px;
+}
+
+.menu-section .menu-list .menu-item img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+/*****************     Customer Reviews    *********************/
+
+.reviews-section {
+    padding: 50px 20px;
+}
+
+.reviews-section h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.left_part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.review_first {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 330px;
+    height: 200px;
+    box-shadow: 0px 0px 1px 0px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.review_data_uperpart {
+    display: inline-block;
+    line-height: 5px;
+}
+
+img { 
+    vertical-align: middle;
+}
+
+.review_data_uperpart .user {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.review_data_uperpart .user p {
+    line-height: 40px;
+}
+
+
+.review_data_downpart .star_text {
+     font-weight: 520;
+     font-size: 20px;
+}
+.star {
+    color: rgb(255, 145, 0);
+    font-size: 30px;
+    margin-bottom: 0px;
+    /* line-height: 20px; */
+    letter-spacing: -4px;
+    font-weight: 700;
+    
+}
+
+.reviews-section .btn {
+    text-align: center;
+}
+
+.reviews-section .btn button {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/*****************     Footer    *********************/
+
+footer {
+    background-image: url(/Images/bg_footer.webp);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.footer-content {
+    /* min-height: 100vh; */
+    /* height: 400px; */
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    font-size: 20px;
+    color: #bf8d34;
+}
+
+.left-footer {
+    width: 30%;
+    padding: 30px;
+}
+
+.left-footer img {
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+.social-icons {
+    margin-top: 20px;
+    
+}
+
+.left-footer .social .social-icons a{
+    font-size: 30px;
+    margin-right: 20px;
+    color: white;
+}
+
+.right-footer {
+    padding: 20px;
+
+}
+
+.right-footer .title {
+    color: white;
+}
+
+.right-footer .title p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 1.5rem;
+}
+
+.right-footer .title-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-footer .title-content ul li{
+    list-style: none;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+}

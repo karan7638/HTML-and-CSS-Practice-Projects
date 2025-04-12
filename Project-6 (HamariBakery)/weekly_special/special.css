@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/****  Header Section   ****/
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.navbar {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.navbar img {
+    width: 250px;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+}
+
+.navbar .nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu li a:hover {
+    /* color: rgb(0, 17, 255); */
+    text-decoration: underline;
+}
+
+.navbar .btn {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    /* color: white; */
+    /* background-color: rgb(189, 8, 8); */
+}
+
+.navbar .btn:hover {
+    background-color: #5e1f12;
+    color: #fff;
+}
+
+
+/*****************     Weekly Section    *********************/
+
+section {
+
+    /* display: block;  */
+    padding-top: 150px;
+}
+
+.heading {
+    text-align: center;
+    color: #f2afa3;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    padding: 1.2rem 0px;
+}
+
+.heading span {
+    color: rgb(220, 95, 95);
+}
+  
+.next-heading {
+    color: rgb(243, 95, 95);
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    
+}
+
+div {
+    display: block;
+  }
+  .weeklySpecial {
+    /* background: url(/Images/promotion.jpg) no-repeat; */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .weeklySpecial .box-container {
+    display: flex;
+    padding-bottom: 1rem;
+  }
+  
+  .weeklySpecial .box-container .box {
+    flex: 55rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .weeklySpecial .box-container .box .content {
+    text-align: center;
+    
+  }
+  
+  .weeklySpecial .box-container .box .content h3 {
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .weeklySpecial .box-container .box .content p {
+    font-size: 1.2rem;
+    color: #444;
+    padding: 1rem 0;
+    line-height: 1.8;
+  }
+  .order-now-btn{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 300px;
+    border-radius: 20px;
+    color: brown;
+    background-color: #f2d1cc;
+    border-style: dotted;
+    box-shadow: 5px 5px 15px black;
+  }
+  .order-now-btn:hover{
+    cursor: pointer;
+    color: white;
+  }
+  
+
+
+/*****************     Footer    *********************/
+
+footer {
+    background-image: url(/Images/bg_footer.webp);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.footer-content {
+    /* min-height: 100vh; */
+    /* height: 400px; */
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    font-size: 20px;
+    color: #bf8d34;
+}
+
+.left-footer {
+    width: 30%;
+    padding: 30px;
+}
+
+.left-footer img {
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+.social-icons {
+    margin-top: 20px;
+    
+}
+
+.left-footer .social .social-icons a{
+    font-size: 30px;
+    margin-right: 20px;
+    color: white;
+}
+
+.right-footer {
+    padding: 20px;
+
+}
+
+.right-footer .title {
+    color: white;
+}
+
+.right-footer .title p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 1.5rem;
+}
+
+.right-footer .title-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-footer .title-content ul li{
+    list-style: none;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+}

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans;
+    color: white;
+}
+
+body {
+    width: 100%;
+    background-color: #4b4b4d;
+}
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    border: 2px solid black;
+    margin: 0 35%;
+    text-shadow: 5px 5px 2px #000;
+    background-image: url(text-bg-image.jpg);
+}
+
+.page {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 100%;
+}
+
+li {
+    margin: 10px;
+    letter-spacing: 1px;
+    list-style: none;
+}
+
+.content-boss {
+    display: flow-root;
+    background-color: #cfd0d2;
+}
+
+.content-page h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+}
+
+.first-para:first-letter {
+    font-size: 65px;
+    box-shadow: 2px 2px 2px black;
+    float: left;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.content::first-line {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+    margin: 25px;
+    text-align: justify;
+    letter-spacing: 1.5px;
+    color: #000;
+    line-height: 0.8cm;
+}
+
+.image {
+    float: right;
+    shape-outside: url(Lincoln.png);
+}
